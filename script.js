@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", () => {
     function parseScript(content) {
         const lines = content.split("\n");
         const parsed = [];
-        let currentSong;
+        let currentSong = "No BGM";
     
         lines.forEach((line) => {
             line = line.trim();
@@ -85,7 +85,10 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         });
     
-        return Array.from(matchingSongs).map(song => `Song: ${song}`);
+        return Array.from(matchingSongs)
+          .filter(song => song.toLowerCase() === searchTerm.toLowerCase()) // case-insensitive comparison
+          .map(song => `Song: ${song}`);
+    
     }
 
 });
