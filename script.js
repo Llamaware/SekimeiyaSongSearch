@@ -86,7 +86,7 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     
         return Array.from(matchingSongs)
-          .filter(song => song.toLowerCase() === searchTerm.toLowerCase()) // case-insensitive comparison
+          .filter(song => song.toLowerCase() === lowerSearchText) // case-insensitive comparison
           .map(song => `Song: ${song}`);
     
     }
