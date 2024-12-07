@@ -59,6 +59,9 @@ document.addEventListener("DOMContentLoaded", () => {
     
             // Ignore text tags like {w}
             line = line.replace(/\{[^}]*\}/g, "");
+            
+            // Remove backslashes
+            line = line.replace(/\\/g, "");
     
             // Updated regex to handle additional parameters like fadein=3
             const playMusicMatch = line.match(/^\$ PlayMusic\(\s*"([^"]+)"(?:\s*,[^)]*)?\)/);
