@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", () => {
             // Updated regex to handle additional parameters like fadein=3
             const playMusicMatch = line.match(/^\$ PlayMusic\(\s*"([^"]+)"(?:\s*,[^)]*)?\)/);
             if (playMusicMatch) {
-                const songId = playMusicMatch[1];
+                const songId = playMusicMatch[1].toLowerCase();
                 currentSong = musicMap[songId] || songId; // Map the song ID to its full name
             } else if (line.startsWith("$ StopMusic")) {
                 currentSong = "No BGM";
@@ -81,7 +81,7 @@ document.addEventListener("DOMContentLoaded", () => {
     
         script.forEach(entry => {
             if (entry.text.toLowerCase().includes(lowerSearchText)) {
-                matchingSongs.add(entry.song.toLowerCase()); // Add the song to a Set to ensure uniqueness
+                matchingSongs.add(entry.song); // Add the song to a Set to ensure uniqueness
             }
         });
     
