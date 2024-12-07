@@ -52,28 +52,26 @@ document.addEventListener("DOMContentLoaded", () => {
     function parseScript(content) {
         const lines = content.split("\n");
         const parsed = [];
-        let currentSong = "No BGM";
-
+        let currentSong;
+    
         lines.forEach((line) => {
             line = line.trim();
-
+    
             // Ignore text tags like {w}
             line = line.replace(/\{[^}]*\}/g, "");
-
-            // Flexible regex to match PlayMusic
-            if (line.match(/^\$ PlayMusic\(\s*"([^"]+)"(?:,|$)/)) {
-                const match = line.match(/^\$ PlayMusic\(\s*"([^"]+)"/);
-                if (match) {
-                    const songId = match[1];
-                    currentSong = musicMap[songId] || songId;
-                }
+    
+            // Updated regex to handle additional parameters like fadein=3
+            const playMusicMatch = line.match(/^\$ PlayMusic\(\s*"([^"]+)"(?:\s*,[^)]*)?\)/);
+            if (playMusicMatch) {
+                const songId = playMusicMatch[1];
+                currentSong = musicMap[songId] || songId; // Map the song ID to its full name
             } else if (line.startsWith("$ StopMusic")) {
                 currentSong = "No BGM";
-            } else if (!line.startsWith("$") && line) {
+            } else if (!line.startsWith("$") && !line.startsWith("#") && line.includes("\"") && line) {
                 parsed.push({ text: line, song: currentSong });
             }
         });
-
+    
         return parsed;
     }
 
