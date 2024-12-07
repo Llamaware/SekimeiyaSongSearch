@@ -81,14 +81,11 @@ document.addEventListener("DOMContentLoaded", () => {
     
         script.forEach(entry => {
             if (entry.text.toLowerCase().includes(lowerSearchText)) {
-                matchingSongs.add(entry.song); // Add the song to a Set to ensure uniqueness
+                matchingSongs.add(entry.song.toLowerCase()); // Add the song to a Set to ensure uniqueness
             }
         });
     
-        return Array.from(matchingSongs)
-          .filter(song => song.toLowerCase() === lowerSearchText) // case-insensitive comparison
-          .map(song => `Song: ${song}`);
-    
+        return Array.from(matchingSongs).map(song => `Song: ${song}`);
     }
 
 });
