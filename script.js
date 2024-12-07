@@ -63,8 +63,8 @@ document.addEventListener("DOMContentLoaded", () => {
             // Updated regex to handle additional parameters like fadein=3
             const playMusicMatch = line.match(/^\$ PlayMusic\(\s*"([^"]+)"(?:\s*,[^)]*)?\)/);
             if (playMusicMatch) {
-                const songId = playMusicMatch[1].toLowerCase();
-                currentSong = musicMap[songId] || songId; // Map the song ID to its full name
+                const songId = playMusicMatch[1];
+                currentSong = musicMap[songId.toLowerCase()] || songId; // Map the song ID to its full name
             } else if (line.startsWith("$ StopMusic")) {
                 currentSong = "No BGM";
             } else if (!line.startsWith("$") && !line.startsWith("#") && line.includes("\"") && line) {
