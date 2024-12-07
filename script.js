@@ -65,7 +65,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 const match = line.match(/^\$ PlayMusic\(\s*"([^"]+)"/);
                 if (match) {
                     const songId = match[1];
-                    currentSong = musicMap[songId] || "Unknown Song";
+                    currentSong = musicMap[songId] || songId;
                 }
             } else if (line.startsWith("$ StopMusic")) {
                 currentSong = "No BGM";
