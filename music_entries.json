@@ -1,0 +1,458 @@
+[
+    {
+        "name": "2085 a Space Odyssey",
+        "artist": "Volant",
+        "art": "images/albumart/one.jpg",
+        "fname_noloop": "music/original/2085aspaceodyssey.ogg",
+        "fname_loop": "music/2085aspaceodyssey.ogg",
+        "loop_start": 19.258
+    },
+    {
+        "name": "Animals",
+        "artist": "Shurk",
+        "art": "images/albumart/perform.jpg",
+        "fname_noloop": "music/original/animals.ogg",
+        "fname_loop": "music/animals.ogg",
+        "loop_start": 241.43
+    },
+    {
+        "name": "Anomaly",
+        "artist": "auvic & grayscreen",
+        "art": "images/albumart/soulfireinsight.jpg",
+        "fname_noloop": "music/original/anomaly.ogg",
+        "fname_loop": "music/anomaly.ogg",
+        "loop_start": 54.498
+    },
+    {
+        "name": "Aphelion",
+        "artist": "Ninety",
+        "art": "images/albumart/aphelion.png",
+        "fname_noloop": "music/original/aphelion.ogg",
+        "fname_loop": "music/aphelion.ogg",
+        "loop_start": 27.512
+    },
+    {
+        "name": "Basin City",
+        "artist": "Ekcle",
+        "art": "images/albumart/basincity.jpg",
+        "fname_noloop": "music/original/basincity.ogg",
+        "fname_loop": "music/basincity.ogg",
+        "loop_start": 52.855
+    },
+    {
+        "name": "Beguile",
+        "artist": "opaqity",
+        "art": "images/albumart/beguile.jpg",
+        "fname_noloop": "music/original/beguile.ogg",
+        "fname_loop": "music/beguile.ogg",
+        "loop_start": 62.737
+    },
+    {
+        "name": "Breathing Space",
+        "artist": "opaqity",
+        "art": "images/albumart/breathingspace.png",
+        "fname_noloop": "music/original/breathingspace.ogg",
+        "fname_loop": "music/breathingspace.ogg",
+        "loop_start": 62.758
+    },
+    {
+        "name": "Call Of The Void",
+        "artist": "opaqity",
+        "art": "images/albumart/callofthevoid.jpg",
+        "fname_noloop": "music/callofthevoid.ogg",
+        "fname_loop": "music/callofthevoid.ogg",
+        "loop_start": 51.983
+    },
+    {
+        "name": "CC5",
+        "artist": "Clayfacer",
+        "art": "images/albumart/passage.jpg",
+        "fname_noloop": "music/original/cc5.ogg",
+        "fname_loop": "music/cc5.ogg",
+        "loop_start": 2.048
+    },
+    {
+        "name": "Ceol",
+        "artist": "John Tejada",
+        "art": "images/albumart/ceol.png",
+        "fname_noloop": "music/original/ceol.ogg",
+        "fname_loop": "music/ceol.ogg",
+        "loop_start": 62.077
+    },
+    {
+        "name": "Changed Mind",
+        "artist": "opaqity",
+        "art": "images/albumart/changedmind.png",
+        "fname_noloop": "music/original/changedmind.ogg",
+        "fname_loop": "music/changedmind.ogg",
+        "loop_start": 16.234
+    },
+    {
+        "name": "Chillish",
+        "artist": "Jake Kaiser",
+        "art": "images/albumart/chillish.png",
+        "fname_noloop": "music/original/chillish.ogg",
+        "fname_loop": "music/chillish.ogg",
+        "loop_start": 17.044
+    },
+    {
+        "name": "Closure",
+        "artist": "Clayfacer",
+        "art": "images/albumart/passage.jpg",
+        "fname_noloop": "music/original/closure.ogg",
+        "fname_loop": "music/closure.ogg",
+        "loop_start": 16.536
+    },
+    {
+        "name": "Double Vision",
+        "artist": "Adri",
+        "art": "images/albumart/doublevision.png",
+        "fname_noloop": "music/original/doublevision.ogg",
+        "fname_loop": "music/doublevision.ogg",
+        "loop_start": 0.0
+    },
+    {
+        "name": "Duo",
+        "artist": "Shurk",
+        "art": "images/albumart/perform.jpg",
+        "fname_noloop": "music/original/duo.ogg",
+        "fname_loop": "music/duo.ogg",
+        "loop_start": 2.475
+    },
+    {
+        "name": "Dusk Two",
+        "artist": "opaqity",
+        "art": "images/albumart/dusktwo.jpg",
+        "fname_noloop": "music/original/dusktwo.ogg",
+        "fname_loop": "music/dusktwo.ogg",
+        "loop_start": 21.811
+    },
+    {
+        "name": "Dysania",
+        "artist": "Primate",
+        "art": "images/albumart/naturalselection.jpg",
+        "fname_noloop": "music/original/dynasia.ogg",
+        "fname_loop": "music/dynasia.ogg",
+        "loop_start": 11.331
+    },
+    {
+        "name": "Exposed",
+        "artist": "Primate",
+        "art": "images/albumart/outoftime.jpg",
+        "fname_noloop": "music/original/exposed.ogg",
+        "fname_loop": "music/exposed.ogg",
+        "loop_start": 11.316
+    },
+    {
+        "name": "False Illusions",
+        "artist": "modus.",
+        "art": "images/albumart/falseillusions.jpg",
+        "fname_noloop": "music/original/falseillusions.ogg",
+        "fname_loop": "music/falseillusions.ogg",
+        "loop_start": 16.006
+    },
+    {
+        "name": "Fever Dream",
+        "artist": "synce",
+        "art": "images/albumart/feverdream.jpg",
+        "fname_noloop": "music/original/feverdream.ogg",
+        "fname_loop": "music/feverdream.ogg",
+        "loop_start": 58.757
+    },
+    {
+        "name": "Flourishing",
+        "artist": "Nyah",
+        "art": "images/albumart/flourishing.jpg",
+        "fname_noloop": "music/original/flourishing.ogg",
+        "fname_loop": "music/flourishing.ogg",
+        "loop_start": 6.812
+    },
+    {
+        "name": "Flows",
+        "artist": "Jake Kaiser",
+        "art": "images/albumart/flows.jpg",
+        "fname_noloop": "music/original/flows.ogg",
+        "fname_loop": "music/flows.ogg",
+        "loop_start": 5.334
+    },
+    {
+        "name": "Gateway",
+        "artist": "Clayfacer",
+        "art": "images/albumart/passage.jpg",
+        "fname_noloop": "music/original/gateway.ogg",
+        "fname_loop": "music/gateway.ogg",
+        "loop_start": 25.949
+    },
+    {
+        "name": "Heal",
+        "artist": "John Tejada",
+        "art": "images/albumart/heal.png",
+        "fname_noloop": "music/original/heal.ogg",
+        "fname_loop": "music/heal.ogg",
+        "loop_start": 30.525
+    },
+    {
+        "name": "Hicaz",
+        "artist": "Shurk",
+        "art": "images/albumart/perform.jpg",
+        "fname_noloop": "music/original/hicaz.ogg",
+        "fname_loop": "music/hicaz.ogg",
+        "loop_start": 61.768
+    },
+    {
+        "name": "Iucid",
+        "artist": "opaqity",
+        "art": "images/albumart/iucid.png",
+        "fname_noloop": "music/original/iucid.ogg",
+        "fname_loop": "music/iucid.ogg",
+        "loop_start": 29.926
+    },
+    {
+        "name": "Kenopsia",
+        "artist": "Rodriguez Jr.",
+        "art": "images/albumart/kenopsia.png",
+        "fname_noloop": "music/original/kenopsia.ogg",
+        "fname_loop": "music/kenopsia.ogg",
+        "loop_start": 46.13
+    },
+    {
+        "name": "Local Theory",
+        "artist": "Adri",
+        "art": "images/albumart/localtheory.png",
+        "fname_noloop": "music/original/localtheory.ogg",
+        "fname_loop": "music/localtheory.ogg",
+        "loop_start": 125.396
+    },
+    {
+        "name": "Looking Glass",
+        "artist": "Bustre",
+        "art": "images/albumart/lookingglass.jpg",
+        "fname_noloop": "music/original/lookingglass.ogg",
+        "fname_loop": "music/lookingglass.ogg",
+        "loop_start": 21.606
+    },
+    {
+        "name": "Looming",
+        "artist": "Nyah",
+        "art": "images/albumart/looming.jpg",
+        "fname_noloop": "music/original/looming.ogg",
+        "fname_loop": "music/looming.ogg",
+        "loop_start": 16.712
+    },
+    {
+        "name": "Loves Me Loves Me Not",
+        "artist": "auvic",
+        "art": "images/albumart/lovesmelovesmenot.png",
+        "fname_noloop": "music/original/lovesmelovesmenot.ogg",
+        "fname_loop": "music/lovesmelovesmenot.ogg",
+        "loop_start": 21.772
+    },
+    {
+        "name": "Mifune",
+        "artist": "Âme",
+        "art": "images/albumart/ame.jpg",
+        "fname_noloop": "music/original/mifune.ogg",
+        "fname_loop": "music/mifune.ogg",
+        "loop_start": 16.885
+    },
+    {
+        "name": "Natural Selection",
+        "artist": "Primate",
+        "art": "images/albumart/naturalselection.jpg",
+        "fname_noloop": "music/original/naturalselection.ogg",
+        "fname_loop": "music/naturalselection.ogg",
+        "loop_start": 25.611
+    },
+    {
+        "name": "Nia",
+        "artist": "Âme",
+        "art": "images/albumart/ame.jpg",
+        "fname_noloop": "music/original/nia.ogg",
+        "fname_loop": "music/nia.ogg",
+        "loop_start": 123.874
+    },
+    {
+        "name": "Outershell",
+        "artist": "Ninety & synce",
+        "art": "images/albumart/outershell.jpg",
+        "fname_noloop": "music/original/outershell.ogg",
+        "fname_loop": "music/outershell.ogg",
+        "loop_start": 38.632
+    },
+    {
+        "name": "Passage",
+        "artist": "mistwin",
+        "art": "images/albumart/passage2.jpg",
+        "fname_noloop": "music/original/passage.ogg",
+        "fname_loop": "music/passage.ogg",
+        "loop_start": 23.397
+    },
+    {
+        "name": "Relentless Pursuit",
+        "artist": "auvic",
+        "art": "images/albumart/relentlesspursuit.jpg",
+        "fname_noloop": "music/original/relentlesspursuit.ogg",
+        "fname_loop": "music/relentlesspursuit.ogg",
+        "loop_start": 13.898
+    },
+    {
+        "name": "Reverence",
+        "artist": "Meakii",
+        "art": "images/albumart/reverence.png",
+        "fname_noloop": "music/original/reverence.ogg",
+        "fname_loop": "music/reverence.ogg",
+        "loop_start": 30.861
+    },
+    {
+        "name": "Ripple",
+        "artist": "Adri",
+        "art": "images/albumart/ripple.png",
+        "fname_noloop": "music/original/steps.ogg",
+        "fname_loop": "music/steps.ogg",
+        "loop_start": 0.0
+    },
+    {
+        "name": "Room With No Windows",
+        "artist": "Nyah",
+        "art": "images/albumart/thesewallsareourgraves.jpg",
+        "fname_noloop": "music/original/roomwithnowindows.ogg",
+        "fname_loop": "music/roomwithnowindows.ogg",
+        "loop_start": 10.754
+    },
+    {
+        "name": "Sequence",
+        "artist": "shimaL",
+        "art": "images/albumart/sequence.jpg",
+        "fname_noloop": "music/original/sequence.ogg",
+        "fname_loop": "music/sequence.ogg",
+        "loop_start": 59.764
+    },
+    {
+        "name": "Sequence of Events",
+        "artist": "gyrofield",
+        "art": "images/albumart/sequenceofevents.jpg",
+        "fname_noloop": "music/original/sequenceofevents.ogg",
+        "fname_loop": "music/sequenceofevents.ogg",
+        "loop_start": 89.915
+    },
+    {
+        "name": "Setsa",
+        "artist": "Âme",
+        "art": "images/albumart/setsa.jpg",
+        "fname_noloop": "music/original/setsa.ogg",
+        "fname_loop": "music/setsa.ogg",
+        "loop_start": 61.047
+    },
+    {
+        "name": "Shiro",
+        "artist": "Âme",
+        "art": "images/albumart/ame.jpg",
+        "fname_noloop": "music/original/shiro.ogg",
+        "fname_loop": "music/shiro.ogg",
+        "loop_start": 62.347
+    },
+    {
+        "name": "Somber",
+        "artist": "Clayfacer",
+        "art": "images/albumart/passage.jpg",
+        "fname_noloop": "music/original/somber.ogg",
+        "fname_loop": "music/somber.ogg",
+        "loop_start": 62.347
+    },
+    {
+        "name": "Sotto",
+        "artist": "Nyah",
+        "art": "images/albumart/sotto.jpg",
+        "fname_noloop": "music/original/sotto.ogg",
+        "fname_loop": "music/sotto.ogg",
+        "loop_start": 17.445
+    },
+    {
+        "name": "Stage Fright",
+        "artist": "Shurk",
+        "art": "images/albumart/perform.jpg",
+        "fname_noloop": "music/original/stagefright.ogg",
+        "fname_loop": "music/stagefright.ogg",
+        "loop_start": 30.156
+    },
+    {
+        "name": "Subterrain",
+        "artist": "Nyah",
+        "art": "images/albumart/subterrain.jpg",
+        "fname_noloop": "music/original/subterrain.ogg",
+        "fname_loop": "music/subterrain.ogg",
+        "loop_start": 11.327
+    },
+    {
+        "name": "Swelter",
+        "artist": "auvic & Robot Love",
+        "art": "images/albumart/soulfireinsight.jpg",
+        "fname_noloop": "music/original/swelter.ogg",
+        "fname_loop": "music/swelter.ogg",
+        "loop_start": 43.075
+    },
+    {
+        "name": "There's Always Tomorrow",
+        "artist": "opaqity",
+        "art": "images/albumart/theresalwaystomorrow.png",
+        "fname_noloop": "music/original/theresalwaystomorrow.ogg",
+        "fname_loop": "music/theresalwaystomorrow.ogg",
+        "loop_start": 7.011
+    },
+    {
+        "name": "Timeleap",
+        "artist": "shimaL",
+        "art": "images/albumart/timeleap.jpg",
+        "fname_noloop": "music/original/timeleap.ogg",
+        "fname_loop": "music/timeleap.ogg",
+        "loop_start": 36.049
+    },
+    {
+        "name": "Trinity Project",
+        "artist": "Famous Spear",
+        "art": "images/albumart/trinityproject.jpg",
+        "fname_noloop": "music/original/trinityproject.ogg",
+        "fname_loop": "music/trinityproject.ogg",
+        "loop_start": 52.417
+    },
+    {
+        "name": "Twice As Dead",
+        "artist": "Nyah",
+        "art": "images/albumart/twiceasdead.jpg",
+        "fname_noloop": "music/original/twiceasdead.ogg",
+        "fname_loop": "music/twiceasdead.ogg",
+        "loop_start": 50.903
+    },
+    {
+        "name": "Vanity",
+        "artist": "Clayfacer",
+        "art": "images/albumart/passage.jpg",
+        "fname_noloop": "music/original/vanity.ogg",
+        "fname_loop": "music/vanity.ogg",
+        "loop_start": 17.113
+    },
+    {
+        "name": "Why Did I Fade Away",
+        "artist": "opaqity",
+        "art": "images/albumart/whydidifadeaway.png",
+        "fname_noloop": "music/original/whydidifadeaway.ogg",
+        "fname_loop": "music/whydidifadeaway.ogg",
+        "loop_start": 73.093
+    },
+    {
+        "name": "Winter",
+        "artist": "Clayfacer",
+        "art": "images/albumart/passage.jpg",
+        "fname_noloop": "music/original/winter.ogg",
+        "fname_loop": "music/winter.ogg",
+        "loop_start": 40.082
+    },
+    {
+        "name": "Wither",
+        "artist": "Nyah",
+        "art": "images/albumart/wither.jpg",
+        "fname_noloop": "music/original/wither.ogg",
+        "fname_loop": "music/wither.ogg",
+        "loop_start": 65.609
+    }
+]
